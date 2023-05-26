@@ -523,7 +523,13 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-bottom: 5px;
+  margin-bottom: 16px;
+}
+.subscribe-form {
+  display: flex;
+}
+.subscribe-form-wrapper {
+  margin-right: 24px;
 }
 .subscribe-form-input {
   width: 264px;
