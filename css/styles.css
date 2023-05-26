@@ -534,12 +534,16 @@ body {
 .subscribe-form-input {
   width: 264px;
   height: 40px;
-  size: 12px;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  color: #ffffff;
   padding-top: 19px;
   padding-left: 16px;
   border: 1px solid #ffffff;
   border-radius: 4px;
-  background-color: #2e2f42;
+  background-color: transparent;
 }
 .subscribe-form-btn {
   position: absolute;
