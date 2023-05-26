@@ -549,7 +549,10 @@ body {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 165px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  min-width: 165px;
   height: 40px;
   display: flex;
   flex-direction: row;
@@ -559,8 +562,12 @@ body {
   margin-left: 24px;
   gap: 16px;
   background: #4d5ae5;
+  border: none;
   border-radius: 4px;
   color: #ffffff;
+}
+.subscribe-btn-icon {
+  margin-left: 16px;
 }
 /*--------------Modal Window---------------*/
 .backdrop {
