@@ -605,24 +605,25 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <h3 class="contact-form-title">
+        <p class="contact-form-title">
           Leave your contacts and we will call you back
-        </h3>
+        </p>
         <form class="contact-form">
-          <label class="contact-form-wrapper">
-            <span class="contact-form-field-desc">Name</span>
-            <span class="contact-form-icon-wrapper">
+          <div class="contact-form-lab">
+            <label class="contact-form-wrapper" for="user-name"> Name </label>
+            <div class="contact-form-icon-wrapper">
               <input
                 class="contact-form-input"
                 type="text"
                 name="use_name"
+                id="user-name"
                 required
               />
               <svg class="contact-form-icon" width="18" height="18">
                 <use href="./images/icons.svg#icon-name"></use>
               </svg>
-            </span>
-          </label>
+            </div>
+          </div>
           <label class="contact-form-wrapper">
             <span class="contact-form-field-desc">Phone</span>
             <span class="contact-form-icon-wrapper">

@@ -576,6 +576,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
+  padding: 72px 24px 24px 24px;
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -635,16 +636,27 @@ body {
   margin-top: 72px;
   margin-bottom: 16px;
 }
+.contact-form-lab {
+  margin-bottom: 8px;
+}
 .contact-form-wrapper,
 .contact-form-checkbox-wrapper {
   display: block;
   margin-bottom: 8px;
 }
+.contact-form-wrapper {
+  display: block;
+  font-size: 12px;
+  line-height: 1.17em;
+  color: #8e8f99;
+  margin-bottom: 4px;
+}
 .contact-form-input {
   width: 100%;
   height: 40px;
-  border: 1px solid #8e8f99;
+  border: 1px solid rgba(46, 47, 66, 0.2);
   border-radius: 4px;
+  background-color: transparent;
   padding-left: 38px;
 }
 .contact-form-input:focus {
@@ -655,13 +667,6 @@ body {
 .contact-form-input:focus + .contact-form-icon {
   fill: #4d5ae5;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.contact-form-field-desc {
-  display: block;
-  font-size: 12px;
-  line-height: 1.17em;
-  color: #8e8f99;
-  margin-bottom: 4px;
 }
 .contact-form-messange-input {
   width: 100%;
