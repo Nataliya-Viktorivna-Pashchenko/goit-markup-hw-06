@@ -615,7 +615,7 @@
               <input
                 class="contact-form-input"
                 type="text"
-                name="user_name"
+                name="user-name"
                 id="user-name"
                 required
               />
@@ -654,32 +654,39 @@
               </svg>
             </div>
           </div>
-          <div class="contact-form-lab">
-            <label class="contact-form-wrapper" for="user-message">
+          <div class="contact-form-comment">
+            <label class="contact-form-wrapper" for="user-comment">
               Comment</label
             >
             <textarea
-              name="user_message"
+              name="user-comment"
               class="contact-form-messange"
+              id="user-comment"
               placeholder="Text input"
             ></textarea>
           </div>
-          <label class="contact-form-checkbox-wrapper">
+          <div class="contact-form-checkbox-wrapper">
             <input
-              class="contact-form-checkbox"
+              class="contact-form-checkbox visually-hidden"
               type="checkbox"
-              name="user_policy"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
               required
             />
-            <svg class="contact-form-own-checkbox" width="16" height="16">
-              <use
-                class="contact-form-checkbox-icon"
-                href="./images/icons.svg#icon-checkbos"
-              ></use>
-            </svg>
-            I accept the terms and conditions of the
-            <a class="contact-form-policy" href="">Privacy Policy</a>
-          </label>
+            <label for="user-privacy" class="contact-form-checkbox-des"
+              >I accept the terms and conditions of the
+              <span class="contact-form-checkbox-cust">
+                <svg class="contact-form-own-checkbox" width="10" height="8">
+                  <use
+                    class="contact-form-checkbox-icon"
+                    href="./images/icons.svg#icon-checkbos"
+                  ></use>
+                </svg>
+              </span>
+              <a class="contact-form-policy" href="">Privacy Policy</a>
+            </label>
+          </div>
           <button type="submit" class="contact-form-submit">Send</button>
         </form>
       </div>
