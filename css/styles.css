@@ -634,7 +634,6 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--maim-color-text);
-  margin-top: 72px;
   margin-bottom: 16px;
 }
 .contact-form-lab {
@@ -713,6 +712,7 @@ body {
   border-color: #4d5ae5;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+/*-----------Checkbox---------*/
 .contact-form-checkbox-wrapper {
   display: flex;
   align-items: center;
@@ -724,20 +724,51 @@ body {
   appearance: none;
   position: absolute;
 }
-.contact-form-own-checkbox {
+.contact-form-checkbox-des {
+  position: relative;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  padding-left: 25px;
+  color: var(--border-icon);
+}
+.contact-form-checkbox-cust {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  padding: 2px;
   border: 1px solid #8e8f99;
   border-radius: 2px;
-  padding: 2px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
+.contact-form-own-checkbox {
+ /* border: 1px solid #8e8f99;*/
+  border-radius: 2px;
   cursor: pointer;
-  margin-right: 8px;
+}
+.contact-form-policy {
+  margin-left: 5px;
+  color: #4d5ae5;
 }
 .contact-form-checkbox-icon {
   opacity: 0;
 }
 .contact-form-checkbox:checked
-  + .contact-form-own-checkbox
+  + .contact-form-checkbox-des
   .contact-form-checkbox-icon {
   opacity: 1;
+}
+.contact-form-checkbox:checked + .contact-form-checkbox-des .contact-form-checkbox-cust {
+  background-color: var(--accent-color-text);
+  border: none;
+  fill: var(--background-color);
+  border-color: var(--accent-color-text);
 }
 .contact-form-submit {
   min-width: 169px;
@@ -756,23 +787,6 @@ body {
   background-color: #4d5ae5;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contact-form-policy {
-  margin-left: 5px;
-  color: #4d5ae5;
-}
-.contact-form-checkbox-des {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: var(--border-icon);
-}
-.contact-form-checkbox-cust {
-  width: 16px;
-  height: 16px;
-  border: 1px solid #2e2f42;
-  border-radius: 2px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  fill: transparent;
-}
+
+
+
