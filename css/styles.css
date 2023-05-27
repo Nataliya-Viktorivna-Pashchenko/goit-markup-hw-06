@@ -734,7 +734,7 @@ body {
   color: var(--border-icon);
 }
 .contact-form-checkbox-cust {
-  display: flex;
+  display: inline-flex;
   position: absolute;
   top: 50%;
   left: 0;
