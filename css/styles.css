@@ -734,6 +734,7 @@ body {
   color: var(--border-icon);
 }
 .contact-form-checkbox-cust {
+  display: flex;
   position: absolute;
   top: 50%;
   left: 0;
@@ -743,7 +744,6 @@ body {
   padding: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
