@@ -741,7 +741,7 @@ body {
   width: 16px;
   height: 16px;
   padding: 2px;
-  border: 1px solid #8e8f99;
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   display: inline-flex;
   align-items: center;
