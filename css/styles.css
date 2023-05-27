@@ -42,6 +42,7 @@ body {
   --border-button: #e7e9fc;
   --border-icon: #8e8f99;
   --color-icon: #f4f4fd;
+  --color-checkbox: #404bbf;
 }
 
 .section-title {
@@ -655,7 +656,7 @@ body {
 .contact-form-input {
   width: 100%;
   height: 40px;
-  border: 1px solid rgba(46, 47, 66, 0.2);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
   padding-left: 38px;
@@ -765,10 +766,10 @@ body {
   opacity: 1;
 }
 .contact-form-checkbox:checked + .contact-form-checkbox-des .contact-form-checkbox-cust {
-  background-color: var(--accent-color-text);
+  background-color: var(--color-checkbox);
   border: none;
   fill: var(--background-color);
-  border-color: var(--accent-color-text);
+  border-color: var(--color-checkbox);
 }
 .contact-form-submit {
   min-width: 169px;
