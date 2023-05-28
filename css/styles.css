@@ -723,20 +723,34 @@ body {
   appearance: none;
   position: absolute;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .contact-form-checkbox-des {
-  position: relative;
+  /*position: relative;*/
+  font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  padding-left: 25px;
+  /*padding-left: 25px;*/
   color: var(--border-icon);
 }
 .contact-form-checkbox-cust {
   display: inline-flex;
-  position: absolute;
+  /*position: absolute;
   top: 50%;
   left: 0;
-  transform: translateY(-50%);
+  transform: translateY(-50%);*/
   width: 16px;
   height: 16px;
   padding: 2px;
