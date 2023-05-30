@@ -529,9 +529,6 @@ body {
 .subscribe-form {
   display: flex;
 }
-.subscribe-form-wrapper {
-  margin-right: 24px;
-}
 .subscribe-form-input {
   width: 264px;
   height: 40px;
@@ -540,7 +537,6 @@ body {
   letter-spacing: 0.04em;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   color: #ffffff;
-  padding-top: 19px;
   padding-left: 16px;
   border: 1px solid #ffffff;
   border-radius: 4px;
@@ -548,7 +544,7 @@ body {
 }
 .subscribe-form-btn {
   position: absolute;
-  right: 0;
+  right: -20px;
   bottom: 0;
   font-weight: 500;
   line-height: 1.5;
@@ -560,7 +556,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 8px 24px;
-  margin-left: 24px;
+  /*margin-left: 24px;*/
   gap: 16px;
   background: #4d5ae5;
   border: none;
@@ -737,20 +733,14 @@ body {
   overflow: hidden;
 }
 .contact-form-checkbox-des {
-  /*position: relative;*/
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  /*padding-left: 25px;*/
   color: var(--border-icon);
 }
 .contact-form-checkbox-cust {
   display: inline-flex;
-  /*position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);*/
   width: 16px;
   height: 16px;
   padding: 2px;
