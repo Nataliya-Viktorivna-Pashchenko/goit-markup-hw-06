@@ -513,7 +513,6 @@ body {
 }
 .subscribe {
   position: relative;
-  display: block;
   width: 453px;
   height: 80px;
   padding-bottom: 5px;
