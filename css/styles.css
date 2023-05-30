@@ -525,10 +525,10 @@ body {
   color: #ffffff;
   margin-bottom: 16px;
 }
-.subscribe-form {
+/*.subscribe-form {
   display: flex;
   gap: 25px;
-}
+}*/
 .subscribe-form-input {
   width: 264px;
   height: 40px;
